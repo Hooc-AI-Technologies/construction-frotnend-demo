@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { Search, SlidersHorizontal, X, ChevronLeft, ChevronRight, Shield, Star } from 'lucide-react';
+import { Search, SlidersHorizontal, X, ChevronLeft, ChevronRight, Shield } from 'lucide-react';
 import { useAppStore } from '../store/appStore';
 import { ProfessionalCard } from '../components/professionals/ProfessionalCard';
 import { LoadingSkeleton } from '../components/ui/LoadingSkeleton';

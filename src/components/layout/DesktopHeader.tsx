@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {
   Search, ShoppingCart, Heart, Bell, User, ChevronDown,
-  MapPin, X, Check, Menu, LogOut, Settings, Package, Briefcase
+  MapPin, X, Check, LogOut, Settings, Package, Briefcase
 } from 'lucide-react';
 import { BRAND } from '../../config/brand';
 import { useAppStore } from '../../store/appStore';

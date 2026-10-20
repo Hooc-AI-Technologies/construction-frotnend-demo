@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import {
-  ArrowLeft, MapPin, Star, Shield, Clock, CheckCircle2,
-  Phone, Calendar, Award, Heart, ChevronRight, ExternalLink,
+  ArrowLeft, MapPin, Shield, Clock, CheckCircle2,
+  Phone, Calendar, Award, Heart,
   Briefcase, Globe, Users
 } from 'lucide-react';
 import { useAppStore } from '../store/appStore';
 import { StarRating } from '../components/ui/StarRating';
 import { BookingModal } from '../components/professionals/BookingModal';
-import { formatINR } from '../config/brand';
 
 export default function ProfessionalDetailPage() {
   const { id } = useParams<{ id: string }>();

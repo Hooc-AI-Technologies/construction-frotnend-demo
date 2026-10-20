@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Minus, Plus, Trash2, ShoppingCart, ArrowLeft, Truck, Shield, Tag } from 'lucide-react';
+import { Minus, Plus, Trash2, ArrowLeft, Truck, Shield, Tag } from 'lucide-react';
 import { useAppStore } from '../store/appStore';
 import { formatINR } from '../config/brand';
 

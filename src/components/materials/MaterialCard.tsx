@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingCart, Minus, Plus, Truck, Star, Heart, Info } from 'lucide-react';
+import { ShoppingCart, Minus, Plus, Truck, Heart, Info } from 'lucide-react';
 import type { Material } from '../../data/seed';
 import { useAppStore } from '../../store/appStore';
 import { formatINR } from '../../config/brand';

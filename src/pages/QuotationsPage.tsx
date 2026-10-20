@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
-import { Plus, FileText, Check, X, Clock, AlertCircle, ChevronRight } from 'lucide-react';
+import { useSearchParams } from 'react-router-dom';
+import { Plus, FileText, Check, X, Clock, AlertCircle } from 'lucide-react';
 import { useAppStore } from '../store/appStore';
 import { Modal } from '../components/ui/Modal';
 import { formatINR, getRelativeDateISO } from '../config/brand';

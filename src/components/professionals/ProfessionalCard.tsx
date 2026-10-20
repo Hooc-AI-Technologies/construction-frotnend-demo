@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Star, Shield, Clock, CheckCircle2, Heart, ExternalLink } from 'lucide-react';
+import { MapPin, Shield, Clock, CheckCircle2, Heart, ExternalLink } from 'lucide-react';
 import type { Professional } from '../../data/seed';
 import { useAppStore } from '../../store/appStore';
 import { StarRating } from '../ui/StarRating';

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {
   Search, HardHat, Package, Shield, Truck, Star,
-  ArrowRight, ChevronRight, Users, MapPin, Zap, Award
+  ArrowRight, ChevronRight, Users, Zap, Award
 } from 'lucide-react';
 import { useAppStore } from '../store/appStore';
 import { ProfessionalCard } from '../components/professionals/ProfessionalCard';

@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Briefcase, Calendar, FileText, Home, Plus, CheckCircle2,
-  Clock, AlertCircle, ChevronRight, Camera, CreditCard,
-  Shield, Check, X, Image as ImageIcon, BarChart3
+  Clock, AlertCircle, Camera, CreditCard,
+  Check, X
 } from 'lucide-react';
 import { useAppStore } from '../store/appStore';
 import { Modal } from '../components/ui/Modal';
-import { formatINR, getRelativeDateISO, getRelativeDate } from '../config/brand';
+import { formatINR, getRelativeDateISO } from '../config/brand';
 
 type Tab = 'overview' | 'projects' | 'bookings' | 'quotations';
 

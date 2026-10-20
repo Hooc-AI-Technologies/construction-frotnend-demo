@@ -4,7 +4,7 @@ import { Calendar, Clock, MapPin, FileText, Check, AlertCircle } from 'lucide-re
 import { Modal } from '../ui/Modal';
 import type { Professional } from '../../data/seed';
 import { useAppStore } from '../../store/appStore';
-import { formatINR, getRelativeDateISO } from '../../config/brand';
+import { getRelativeDateISO } from '../../config/brand';
 
 interface BookingModalProps {
   pro: Professional;
@@ -31,7 +31,7 @@ const SERVICE_OPTIONS = [
 
 export function BookingModal({ pro, open, onClose }: BookingModalProps) {
   const navigate = useNavigate();
-  const { addBooking, profile, deliveryAddress } = useAppStore();
+  const { addBooking, deliveryAddress } = useAppStore();
   const [step, setStep] = useState<'form' | 'confirm' | 'success'>('form');
   const [loading, setLoading] = useState(false);
   const [confirmedId, setConfirmedId] = useState('');
